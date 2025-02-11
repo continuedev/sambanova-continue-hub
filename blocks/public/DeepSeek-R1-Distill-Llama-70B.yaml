@@ -1,0 +1,11 @@
+---
+name: DeepSeek-R1-Distill-Llama 70B
+version: 0.0.1
+models:
+- name: DeepSeek-R1-Distill-Llama 70B
+  provider: sambanova
+  model: DeepSeek-R1-Distill-Llama-70B
+  roles:
+    - chat
+    - edit
+    - apply
