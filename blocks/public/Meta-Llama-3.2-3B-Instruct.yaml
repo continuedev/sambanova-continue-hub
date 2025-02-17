@@ -9,3 +9,4 @@ models:
     - chat
     - edit
     - apply
+    - autocomplete

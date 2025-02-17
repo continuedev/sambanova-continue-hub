@@ -13,21 +13,33 @@ models = {
     "DeepSeek-R1-Distill-Llama": {
         "70B": ["chat", "edit", "apply"]
     },
+    "DeepSeek": {
+        "R1": ["chat", "edit", "apply"]
+    },
+    "Llama-3.1": {
+        "Tulu-3-405B": ["chat", "edit", "apply"]
+    },
     "Meta-Llama-3.1": {
         "8B-Instruct": ["chat", "edit", "apply"],
         "70B-Instruct": ["chat", "edit", "apply"],
         "405B-Instruct": ["chat", "edit", "apply"]
     },
     "Meta-Llama-3.2": {
-        "1B-Instruct": ["chat", "edit", "apply"],
-        "3B-Instruct": ["chat", "edit", "apply"]
+        "1B-Instruct": ["chat", "edit", "apply", "autocomplete"],
+        "3B-Instruct": ["chat", "edit", "apply", "autocomplete"],
+        "11B-Vision-Instruct": ["chat", "edit", "apply"],
+        "90B-Vision-Instruct": ["chat", "edit", "apply"]
     },
     "Meta-Llama-3.3": {
-        "32B-Instruct": ["chat", "edit", "apply"]
+        "70B-Instruct": ["chat", "edit", "apply", "autocomplete"]
     },
     "Qwen2.5-Coder": {
-        "32B-Instruct": ["chat", "edit", "apply"]
+        "Coder-32B-Instruct": ["chat", "edit", "apply", "autocomplete"],
+        "72B-Instruct": ["chat", "edit", "apply"]
     },
+    "QwQ": {
+        "32B-Preview": ["chat", "edit", "apply"]
+    }
 }
 
 def create_yaml_files(models, version):

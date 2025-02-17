@@ -1,0 +1,11 @@
+---
+name: Meta-Llama-3.2 90B-Vision-Instruct
+version: 0.0.1
+models:
+- name: Meta-Llama-3.2 90B-Vision-Instruct
+  provider: sambanova
+  model: Meta-Llama-3.2-90B-Vision-Instruct
+  roles:
+    - chat
+    - edit
+    - apply
