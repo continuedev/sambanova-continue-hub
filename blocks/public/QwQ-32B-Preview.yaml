@@ -1,6 +1,6 @@
 ---
 name: QwQ 32B-Preview
-version: 0.0.1
+version: 1.0.0
 models:
 - name: QwQ 32B-Preview
   provider: sambanova

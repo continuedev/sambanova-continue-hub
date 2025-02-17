@@ -1,6 +1,6 @@
 ---
 name: Meta-Llama-3.3 70B-Instruct
-version: 0.0.1
+version: 1.0.0
 models:
 - name: Meta-Llama-3.3 70B-Instruct
   provider: sambanova

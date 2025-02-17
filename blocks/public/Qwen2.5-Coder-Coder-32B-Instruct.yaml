@@ -1,6 +1,6 @@
 ---
 name: Qwen2.5-Coder Coder-32B-Instruct
-version: 0.0.1
+version: 1.0.0
 models:
 - name: Qwen2.5-Coder Coder-32B-Instruct
   provider: sambanova
