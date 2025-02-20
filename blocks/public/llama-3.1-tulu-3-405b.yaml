@@ -1,0 +1,11 @@
+---
+name: Llama-3.1 Tulu-3-405B
+version: 1.0.1
+models:
+- name: Llama-3.1 Tulu-3-405B
+  provider: sambanova
+  model: Llama-3.1-Tulu-3-405B
+  roles:
+    - chat
+    - edit
+    - apply

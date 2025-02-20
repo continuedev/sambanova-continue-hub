@@ -1,0 +1,11 @@
+---
+name: QwQ 32B-Preview
+version: 1.0.1
+models:
+- name: QwQ 32B-Preview
+  provider: sambanova
+  model: QwQ-32B-Preview
+  roles:
+    - chat
+    - edit
+    - apply
