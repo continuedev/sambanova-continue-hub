@@ -4,6 +4,9 @@ import os
 import logging
 import argparse
 
+# Update me to the latest when you commit new versions
+DEFAULT_VERSION="1.0.1"
+
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -25,16 +28,16 @@ models = {
         "405B-Instruct": ["chat", "edit", "apply"]
     },
     "Meta-Llama-3.2": {
-        "1B-Instruct": ["chat", "edit", "apply", "autocomplete"],
-        "3B-Instruct": ["chat", "edit", "apply", "autocomplete"],
+        "1B-Instruct": ["chat", "edit", "apply"],
+        "3B-Instruct": ["chat", "edit", "apply"],
         "11B-Vision-Instruct": ["chat", "edit", "apply"],
         "90B-Vision-Instruct": ["chat", "edit", "apply"]
     },
     "Meta-Llama-3.3": {
-        "70B-Instruct": ["chat", "edit", "apply", "autocomplete"]
+        "70B-Instruct": ["chat", "edit", "apply"]
     },
     "Qwen2.5-Coder": {
-        "Coder-32B-Instruct": ["chat", "edit", "apply", "autocomplete"],
+        "Coder-32B-Instruct": ["chat", "edit", "apply"],
         "72B-Instruct": ["chat", "edit", "apply"]
     },
     "QwQ": {
@@ -76,7 +79,7 @@ models:
 
 def main():
     parser = argparse.ArgumentParser(description="Generate YAML files for models.")
-    parser.add_argument('--version', default='0.0.1', help='Version string for the YAML files')
+    parser.add_argument('--version', default=DEFAULT_VERSION, help='Version string for the YAML files')
 
     args = parser.parse_args()
     create_yaml_files(models, args.version)

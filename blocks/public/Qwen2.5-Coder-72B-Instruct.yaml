@@ -1,6 +1,6 @@
 ---
 name: Qwen2.5-Coder 72B-Instruct
-version: 1.0.0
+version: 1.0.1
 models:
 - name: Qwen2.5-Coder 72B-Instruct
   provider: sambanova

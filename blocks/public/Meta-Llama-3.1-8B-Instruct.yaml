@@ -1,6 +1,6 @@
 ---
 name: Meta-Llama-3.1 8B-Instruct
-version: 1.0.0
+version: 1.0.1
 models:
 - name: Meta-Llama-3.1 8B-Instruct
   provider: sambanova
