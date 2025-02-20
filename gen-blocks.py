@@ -69,7 +69,7 @@ models:
             for role in supported_roles:
                 yaml_content += f"    - {role}\n"
 
-            file_path = os.path.join(base_path, f"{model_name}-{size}.yaml")
+            file_path = os.path.join(base_path, f"{model_name.lower()}-{size.lower()}.yaml")
             try:
                 with open(file_path, 'w') as file:
                     file.write(yaml_content)
