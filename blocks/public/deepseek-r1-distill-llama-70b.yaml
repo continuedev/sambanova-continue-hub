@@ -1,10 +1,11 @@
 ---
 name: DeepSeek-R1-Distill-Llama 70B
-version: 1.0.1
+version: 1.0.2
 models:
 - name: DeepSeek-R1-Distill-Llama 70B
   provider: sambanova
   model: DeepSeek-R1-Distill-Llama-70B
+  apiKey: ${{ inputs.SAMBANOVA_API_KEY }}
   roles:
     - chat
     - edit

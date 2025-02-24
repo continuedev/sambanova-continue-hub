@@ -5,7 +5,7 @@ import logging
 import argparse
 
 # Update me to the latest when you commit new versions
-DEFAULT_VERSION="1.0.1"
+DEFAULT_VERSION="1.0.2"
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -63,6 +63,7 @@ models:
 - name: {model_name} {size}
   provider: sambanova
   model: {model_name}-{size}
+  apiKey: ${{{{ inputs.SAMBANOVA_API_KEY }}}}
   roles:
 """
 
