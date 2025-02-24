@@ -36,8 +36,8 @@ models = {
     "Meta-Llama-3.3": {
         "70B-Instruct": ["chat", "edit", "apply"]
     },
-    "Qwen2.5-Coder": {
-        "Coder-32B-Instruct": ["chat", "edit", "apply"],
+    "Qwen2.5": {
+        "Coder-32B-Instruct": ["chat", "edit", "apply", "autocomplete"],
         "72B-Instruct": ["chat", "edit", "apply"]
     },
     "QwQ": {

@@ -1,0 +1,11 @@
+---
+name: Qwen2.5 72B-Instruct
+version: 1.0.1
+models:
+- name: Qwen2.5 72B-Instruct
+  provider: sambanova
+  model: Qwen2.5-72B-Instruct
+  roles:
+    - chat
+    - edit
+    - apply
