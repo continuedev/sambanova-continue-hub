@@ -1,6 +1,7 @@
 ---
 name: Qwen2.5 72B-Instruct
 version: 1.0.2
+schema: v1
 models:
 - name: Qwen2.5 72B-Instruct
   provider: sambanova

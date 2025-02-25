@@ -1,6 +1,7 @@
 ---
 name: DeepSeek-R1-Distill-Llama 70B
 version: 1.0.2
+schema: v1
 models:
 - name: DeepSeek-R1-Distill-Llama 70B
   provider: sambanova

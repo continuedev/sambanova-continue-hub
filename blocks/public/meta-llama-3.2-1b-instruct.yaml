@@ -1,6 +1,7 @@
 ---
 name: Meta-Llama-3.2 1B-Instruct
 version: 1.0.2
+schema: v1
 models:
 - name: Meta-Llama-3.2 1B-Instruct
   provider: sambanova
