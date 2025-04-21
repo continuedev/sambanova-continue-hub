@@ -5,7 +5,7 @@ import logging
 import argparse
 
 # Update me to the latest when you commit new versions
-DEFAULT_VERSION="1.0.2"
+DEFAULT_VERSION="1.0.3"
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -17,31 +17,26 @@ models = {
         "70B": ["chat", "edit", "apply"]
     },
     "DeepSeek": {
-        "R1": ["chat", "edit", "apply"]
-    },
-    "Llama-3.1": {
-        "Tulu-3-405B": ["chat", "edit", "apply"]
+        "R1": ["chat", "edit", "apply"],
+        "V3-0324": ["chat", "edit", "apply"],
     },
     "Meta-Llama-3.1": {
         "8B-Instruct": ["chat", "edit", "apply"],
-        "70B-Instruct": ["chat", "edit", "apply"],
         "405B-Instruct": ["chat", "edit", "apply"]
     },
     "Meta-Llama-3.2": {
         "1B-Instruct": ["chat", "edit", "apply"],
         "3B-Instruct": ["chat", "edit", "apply"],
-        "11B-Vision-Instruct": ["chat", "edit", "apply"],
-        "90B-Vision-Instruct": ["chat", "edit", "apply"]
     },
     "Meta-Llama-3.3": {
         "70B-Instruct": ["chat", "edit", "apply"]
     },
-    "Qwen2.5": {
-        "Coder-32B-Instruct": ["chat", "edit", "apply", "autocomplete"],
-        "72B-Instruct": ["chat", "edit", "apply"]
-    },
     "QwQ": {
-        "32B-Preview": ["chat", "edit", "apply"]
+        "32B": ["chat", "edit", "apply"]
+    },
+    "Llama-4":{
+        "Scout-17B-16E-Instruct": ["chat", "edit", "apply"],
+        "Maverick-17B-128E-Instruct": ["chat", "edit", "apply"]
     }
 }
 

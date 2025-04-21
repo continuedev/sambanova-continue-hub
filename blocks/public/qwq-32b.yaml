@@ -1,11 +1,10 @@
 ---
-name: QwQ 32B-Preview
-version: 1.0.2
-schema: v1
+name: QwQ 32B
+version: 1.0.3
 models:
-- name: QwQ 32B-Preview
+- name: QwQ 32B
   provider: sambanova
-  model: QwQ-32B-Preview
+  model: QwQ-32B
   apiKey: ${{ inputs.SAMBANOVA_API_KEY }}
   roles:
     - chat

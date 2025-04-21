@@ -1,7 +1,6 @@
 ---
 name: DeepSeek R1
-version: 1.0.2
-schema: v1
+version: 1.0.3
 models:
 - name: DeepSeek R1
   provider: sambanova

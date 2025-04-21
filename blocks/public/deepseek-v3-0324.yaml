@@ -1,11 +1,10 @@
 ---
-name: Llama-3.1 Tulu-3-405B
-version: 1.0.2
-schema: v1
+name: DeepSeek V3-0324
+version: 1.0.3
 models:
-- name: Llama-3.1 Tulu-3-405B
+- name: DeepSeek V3-0324
   provider: sambanova
-  model: Llama-3.1-Tulu-3-405B
+  model: DeepSeek-V3-0324
   apiKey: ${{ inputs.SAMBANOVA_API_KEY }}
   roles:
     - chat
